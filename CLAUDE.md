@@ -87,3 +87,40 @@ This codebase is specifically designed for practicing:
 - Components use consistent Tailwind styling patterns
 - The codebase follows Next.js 16 App Router conventions
 - TypeScript is configured with strict mode enabled
+
+# Project Context
+
+## Repository Management Standards
+- Always create feature branches before making changes
+- Commit frequently with descriptive messages following conventional commits
+- Run tests before committing
+- Never commit directly to main/master
+- Always pull latest changes before starting work
+- Create atomic commits (one logical change per commit)
+
+## Before Making Changes
+1. Check current branch status with `git status`
+2. Pull latest changes from main
+3. Create a new feature branch: `git checkout -b feature/description`
+4. Verify tests pass before starting
+
+## Code Quality Standards
+- Run linting before every commit
+- Ensure all tests pass
+- Follow existing code formatting
+- Write tests for new functionality
+- Document complex logic
+- Remove debug/console statements before committing
+
+## Commit Guidelines
+- Use conventional commits format: type(scope): description
+- Types: feat, fix, docs, style, refactor, test, chore
+- Keep commit messages under 72 characters
+- Reference issue numbers when applicable
+
+## Before Finalizing
+- Run full test suite
+- Check for uncommitted changes
+- Review diff before committing
+- Ensure no sensitive data in commits
+- Update documentation if needed
